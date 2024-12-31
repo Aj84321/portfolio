@@ -1,6 +1,7 @@
 import React from "react";
-import "./NavbarStyles.css"
+import "./NavbarStyles.css";
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
       <Link to="/">
         <h1>Portfolio</h1>
       </Link>
-      <ul className="nav-menu"> 
+      <ul className="nav-menu">
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -22,6 +23,10 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
+
+      <div className="hamburger">
+        <FaBars size={20} style={{ color: "#fff" }} />
+      </div>
     </div>
   );
 };
