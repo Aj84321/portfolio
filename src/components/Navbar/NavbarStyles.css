@@ -1,6 +1,8 @@
-/* .header {
+.header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
 
 .nav-menu {
@@ -13,4 +15,4 @@
 
 .nav-menu li a {
     font-size: 1.2rem;
-} */
+}
