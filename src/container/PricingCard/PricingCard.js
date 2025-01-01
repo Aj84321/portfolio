@@ -51,7 +51,6 @@ const PricingCard = () => {
 
             </div>
         </div>
-        <p>PricingCard</p>
         </>
     )
 
