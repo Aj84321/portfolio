@@ -1,10 +1,15 @@
 import React from 'react';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
+import HeroImgSect from '../../components/Hero/heroimgsect';
 
 const Project = () => {
 
     return(
         <>
-        <h1>Project</h1>
+       <Navbar/>
+       <HeroImgSect/>
+        <Footer/>
         </>
     )
 
