@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const [color,setColor] = useState(false) 
   const changecolor = () => {
-    if(window.scrollY >= 1){
+    if(window.scrollY >= 100){
       setColor(true)
     }else{
       setColor(false)
