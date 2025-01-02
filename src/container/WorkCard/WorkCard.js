@@ -9,7 +9,7 @@ const WorkCard = () => {
         <h1 className="project-heading">Projects</h1>
         <div className="project-container">
           <div className="project-card">
-            <img src="/assets/project1.png" alt="image"/>
+            <img src="/assets/project1.png" alt="Image"/>
             <h2 className="project-title">Project Title</h2>
             <div className="pro-details">
                 <p>This is text</p>
