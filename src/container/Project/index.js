@@ -3,6 +3,9 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import HeroImgSect from '../../components/Hero/heroimgsect';
 import PricingCard from '../PricingCard/PricingCard';
+import Work from '../../components/Work';
+
+
 
 const Project = () => {
 
@@ -10,6 +13,7 @@ const Project = () => {
         <>
        <Navbar/>
        <HeroImgSect heading="Projects" text="Some of most recent works"/>
+       <Work/>
        <PricingCard/>
         <Footer/>
         </>

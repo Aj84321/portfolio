@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import HeroImg from '../../components/Hero/heroimg'
 import Footer from '../../components/Footer'
-import WorkCard from '../WorkCard/WorkCard'
+import Work from '../../components/Work'
+
 
 const Home = () => {
     
@@ -10,7 +11,7 @@ const Home = () => {
     <>
         <Navbar/>
         <HeroImg/>
-        <WorkCard/>
+        <Work/>
         <Footer/>
     </>
 
