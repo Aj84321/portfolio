@@ -14,8 +14,8 @@ const Footer = () => {
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
               <div>
-                <p>123 Housing Colony </p>
-                <p>India</p>
+                <p>Jaipur</p>
+                <p>Rajasthan</p>
               </div>
             </div>
 
@@ -25,7 +25,7 @@ const Footer = () => {
                   size={20}
                   style={{ color: "#fff", marginRight: "2rem" }}
                 />
-                1234567890
+                8952008955
               </h4>
             </div>
 
@@ -35,13 +35,13 @@ const Footer = () => {
                   size={20}
                   style={{ color: "fff", marginRight: "2rem" }}
                 />
-                info@gmail.com
+                jainanand84321@gmail.com
               </h4>
             </div>
           </div>
           <div className="right">
-            <h4>About the Company</h4>
-            <p>This is Faxal. I design the new projects.</p>
+            <h4>About</h4>
+            {/* <p>This is Faxal. I design the new projects.</p> */}
             <div className="social">
               <FaFacebook
                 size={30}
